@@ -1,0 +1,24 @@
+<HTML>
+<HEAD>
+<title>Art Galery</title>
+</HEAD>
+<BODY style="background-color:#b8ffd2">
+
+  <table border>
+<colgroup width=300 span=6>
+</colgroup>
+      <tr>
+        <th rowspan=4 bgcolor=#fadae9>LOLLI Art Galery</th>
+        <td colspan=6 bgcolor=#b8ffd2> <br> <br> </td>
+      </tr>
+      <tr>
+        <td align=center bgcolor=#fadae9><a href="home.html">Home</a></td>
+        <td align=center bgcolor=#fadae9><a href="my art.html">My art</td>
+        <td align=center bgcolor=#fadae9>Event</td> 
+        <td align=center bgcolor=#fadae9><a href="celebreties' hall.html">Celebreties' hall</a></td>
+        <td align=center bgcolor=#fadae9><a href="bloging space.html">Bloging space</td>
+      </tr>
+  </table>
+
+</BODY>
+</HTML>
