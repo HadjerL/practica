@@ -1,0 +1,88 @@
+:root{
+    --large-font-:48px;
+    --medium-font-: 24px;
+    --small-font: 18px;
+    --mian-color: #623CEA;
+    --regular: 400;
+    --medium: 500;
+    --semi-bold: 600;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'IBM Plex Sans', Arial ,sans-serif;
+}
+header{
+    padding: 28px 64px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333333;
+    font-size: var(--small-font);
+    font-weight: var(--regular);
+}
+.btn{
+    padding: 10px 19px;
+    border: 1.5px solid var(--mian-color);
+    font-size: var(--small-font);
+    border-radius: 5px;
+    font-weight: var(--medium);
+    background-color: var(--mian-color);
+    color: white;
+}
+.btn.log-in{
+    background-color: white;
+    border-color: var(--mian-color);
+    color: var(--mian-color);
+}
+main{
+    display: flex;
+    align-items: center;
+    margin: 0 65.5px;
+    margin-top: 100px;
+    
+}
+.main-img{
+    width: 35vw;
+}
+h3{
+    font-size: var(--large-font-);
+    font-weight: var(--semi-bold);
+    line-height: 62px;
+}
+main p{
+    font-size: var(--medium-font-);
+    font-weight: var(--medium);
+    line-height: 31.2px;
+    margin-top: 30px;
+    margin-bottom: 49px;
+    color: #333333;
+
+}
